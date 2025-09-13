@@ -7,12 +7,12 @@ import {
   SiVercel,
   SiMacos,
 } from "react-icons/si";
-
+import { IoLogoWindows } from "react-icons/io";
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMacos />
+        <IoLogoWindows />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />

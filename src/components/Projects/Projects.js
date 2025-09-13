@@ -8,7 +8,7 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
-
+import chessmate from "../../Assets/Projects/chessmate.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -25,21 +25,21 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              title="WorldAtlas"
+              description="The World Tour application is a React-based project that allows users to explore various destinations around the globe. This application provides an interactive interface for users to search and filter locations, making it easy to find information about different places."
               ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              demoLink="https://worldatlas-mocha.vercel.app"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={chessmate}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="ChessMate"
+              description=" real-time chess application that allows two players to compete online. The platform was built using Node.js and WebSockets to handle live game states and seamless communication, Implemented core game logic, including complex move validation and check/checkmate detection, to ensure accurate and seamless gameplay."
+              ghLink="https://github.com/raviraj34/Chess-frontend"
+              demoLink="https://chessmateplay.netlify.app"
             />
           </Col>
 
@@ -47,10 +47,10 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Email-Checker"
+              description="Engineered a full-stack email processing platform that uses the Gemini API for advanced email categorization and content analysis. The application provides key insights into email content, such as identifying spam, classifying emails by topic (e.g., promotional, personal, urgent), and extracting key information. The solution was built with a custom backend to communicate with the AI model and a user-friendly front end for displaying results."
+              ghLink="https://github.com/raviraj34/email-checker-ai"
+              demoLink="https://email-checker-ai.vercel.app/"              
             />
           </Col>
 
