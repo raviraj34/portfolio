@@ -43,7 +43,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/soumyajit4419/"
+                href="https://www.linkedin.com/in/ravi-raj-singh-chandrawat-532a27294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"

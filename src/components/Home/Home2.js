@@ -87,7 +87,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/RaviRajSnghChandrawat/"
+                  href="https://www.linkedin.com/in/ravi-raj-singh-chandrawat-532a27294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
