@@ -28,7 +28,7 @@ function Projects() {
               title="WorldAtlas"
               description="The World Tour application is a React-based project that allows users to explore various destinations around the globe. This application provides an interactive interface for users to search and filter locations, making it easy to find information about different places."
               ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://worldatlas-mocha.vercel.app"
+              demoLink="https://worldatlasweb.vercel.app"
             />
           </Col>
 
